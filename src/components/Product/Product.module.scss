@@ -34,4 +34,8 @@
   letter-spacing: 3px;
   font-weight: 800;
   cursor: pointer;
+  transition: all 0.5s ease;
+  &:hover {
+    font-size: calc(150%);
+  }
 }

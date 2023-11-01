@@ -3,11 +3,11 @@ import styles from "./Header.module.scss";
 export const Header = () => {
   return (
     <div className={styles.container}>
-      <span className={styles["header-item"]}>PRODUCTS</span>
-      <span className={styles["header-item"]}>DISCOUNTS</span>
+      <div className={styles["header-item"]}>PRODUCTS</div>
+      <div className={styles["header-item"]}>DISCOUNTS</div>
       <DiamondIcon />
-      <span className={styles["header-item"]}>OUR PARTNERS</span>
-      <span className={styles["header-item"]}>ABOUT US</span>
+      <div className={styles["header-item"]}>OUR PARTNERS</div>
+      <div className={styles["header-item"]}>ABOUT US</div>
     </div>
   );
 };
