@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,700;1,500;1,600&display=swap");
+@import "./colors.scss";
+
+$header-font-family: "Montserrat";
+$header-font-size: 19px;
+$header-font-weight: 800;
+
+@mixin font-header-item {
+  color: white;
+  font-family: $header-font-family;
+  font-weight: $header-font-weight;
+  letter-spacing: 12%;
+}
+
+@mixin font-body-title {
+  color: $orange-1;
+  font-size: 64px;
+  font-family: "Montserrat";
+  font-weight: 800;
+}

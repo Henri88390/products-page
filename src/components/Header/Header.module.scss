@@ -1,0 +1,15 @@
+@import "../../scss/colors.scss";
+@import "../../scss/typography.scss";
+.container {
+  min-height: 100px;
+  background-color: $primary-1;
+  @include font-header-item;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.header-item {
+  cursor: pointer;
+}
