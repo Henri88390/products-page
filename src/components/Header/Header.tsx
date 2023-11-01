@@ -1,4 +1,4 @@
-import { ReactComponent as DiamondIcon } from "../../icons/diamond.svg";
+import { ReactComponent as DiamondIcon } from "../../assets/icons/diamond.svg";
 import styles from "./Header.module.scss";
 export const Header = () => {
   return (

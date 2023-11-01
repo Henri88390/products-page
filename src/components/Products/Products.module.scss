@@ -1,0 +1,46 @@
+@import "../../scss/colors.scss";
+@import "../../scss/typography.scss";
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../public/images/unsplash.png");
+  padding: 40px;
+}
+
+.info-container {
+  padding: 40px;
+  background-color: $primary-1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.header-title {
+  font-family: "Montserrat";
+  color: $orange-1;
+  font-size: 64px;
+  letter-spacing: 10px;
+  font-weight: 800;
+}
+
+.header-subtitle {
+  @include font-text;
+  text-transform: capitalize;
+}
+
+.products-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}

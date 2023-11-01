@@ -1,0 +1,37 @@
+@import "../../scss/colors.scss";
+@import "../../scss/typography.scss";
+
+.product-container {
+  border: 4px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-around;
+  width: 300px;
+  height: 440px;
+  padding: 33px;
+}
+
+.product-title {
+  font-family: "Montserrat";
+  font-size: 27px;
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.product-description {
+  @include font-text;
+  text-align: center;
+}
+
+.explore-btn {
+  color: $secondary-1;
+  text-transform: uppercase;
+  font-size: 19px;
+  letter-spacing: 3px;
+  font-weight: 800;
+  cursor: pointer;
+}
